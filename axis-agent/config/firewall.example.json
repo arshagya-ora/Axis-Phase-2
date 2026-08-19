@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": "a9a7d44f-e187-4dfe-9b54-1bcf3b1f3c01",
+      "effect": "allow",
+      "host": "example.com",
+      "include_subdomains": true,
+      "schemes": ["https"],
+      "ports": null,
+      "purposes": [
+        "navigation",
+        "redirect",
+        "popup",
+        "iframe",
+        "subresource",
+        "download",
+        "api"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "6e31d278-4bf8-468c-a9ef-4c7ff8ec0b02",
+      "effect": "deny",
+      "host": "admin.example.com",
+      "include_subdomains": true,
+      "schemes": ["https"],
+      "ports": null,
+      "purposes": [
+        "navigation",
+        "redirect",
+        "popup",
+        "iframe",
+        "subresource",
+        "download",
+        "api"
+      ],
+      "enabled": true
+    }
+  ]
+}
